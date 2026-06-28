@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="TalesFrom80s.91efd8cf-ef5c-4452-82be-eaed2b073abe" Version="1.0.0" Language="en-US" Publisher="DanO" />
+    <Identity Id="TalesFrom80s.91efd8cf-ef5c-4452-82be-eaed2b073abe" Version="1.0.0" Language="en-US" Publisher="Daniel Oliveira" />
     <DisplayName>Tales From 80s</DisplayName>
     <Description xml:space="preserve">A colorful, 80s-inspired dark theme for Visual Studio — deep blue-violet backgrounds, a cool electric-blue accent, and warm syntax highlights tuned for comfortable long coding sessions. Based on One Monokai 80s.</Description>
     <Icon>Resources\Icon.png</Icon>

@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/.solution-items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TalesFrom80s/TalesFrom80s.csproj" Id="f3b5e953-e4c3-4c66-b22b-f076f8d7f8f7" />
+  </Folder>
+</Solution>

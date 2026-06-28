@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="TalesFrom80s.91efd8cf-ef5c-4452-82be-eaed2b073abe" Version="1.0.0" Language="en-US" Publisher="DanO" />
+    <DisplayName>Tales From 80s</DisplayName>
+    <Description xml:space="preserve">A colorful, 80s-inspired dark theme for Visual Studio — deep blue-violet backgrounds, a cool electric-blue accent, and warm syntax highlights tuned for comfortable long coding sessions. Based on One Monokai 80s.</Description>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
+    <Tags>dark, theme, 80s, retro, synthwave, blue, violet, cyan, electric, one monokai, monokai, modern, polished, focus, muted, readable, readability, editor, coding, developer, visual studio, visual studio theme</Tags>
+    <Preview>true</Preview>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+      <ProductArchitecture>arm64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" d:Source="Manual" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" DisplayName="Visual Studio core editor" Version="[17.0,)" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" d:Source="Project" d:ProjectName="%CurrentProject%" />
+  </Assets>
+</PackageManifest>

@@ -1,0 +1,32 @@
+# Normalize text files
+* text=auto
+
+# C# tooling
+*.cs text diff=csharp
+
+# Visual Studio solution / project files
+*.slnx   text merge=union
+*.csproj text merge=union
+*.vbproj text merge=union
+*.fsproj text merge=union
+
+# Images (Git already treats most as binary, but explicit is fine)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.svg  text
+
+# Scripts
+*.sh   text eol=lf
+*.bash text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# Archives
+*.zip binary
+*.7z  binary
+*.tar binary
+*.gz  binary
+*.tgz binary

@@ -61,7 +61,13 @@
   </PropertyGroup>
   <!-- Package Contents (exclude) -->
   <ItemGroup>
-    <None Include="TalesFrom80s.vstheme">
+    <None Include="themes\TalesFrom80s\TalesFrom80s.vstheme">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="themes\TalesFrom80sDark\TalesFrom80sDark.vstheme">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="themes\TalesFrom80sLight\TalesFrom80sLight.vstheme">
       <SubType>Designer</SubType>
     </None>
     <None Include="source.extension.vsixmanifest">
